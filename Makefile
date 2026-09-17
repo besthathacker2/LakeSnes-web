@@ -1,5 +1,5 @@
 
-CC = clang
+CC = emcc
 CFLAGS = -O3 -I ./snes -I ./zip
 
 WINDRES = windres
