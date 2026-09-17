@@ -17,7 +17,7 @@ jobs:
           version: 3.1.50
 
       - name: Build
-        run: emmake make CC=emcc
+        run: emmake make CC=emcc -Werror
 
       - name: Create zip
         uses: thedoctor0/zip-release@0.7.1
